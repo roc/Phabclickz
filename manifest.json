@@ -1,0 +1,24 @@
+{
+    "name": "Phabclickz",
+    "description": "Click the id of the code line and see it show up in the url",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": {
+        "16": "phabby16.png",
+        "48": "phabby48.png",
+        "128": "phabby128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://phabricator.twitter.biz/*"
+            ],
+            "js": [
+                "contentScript.js"
+            ]
+        }
+    ]
+}
