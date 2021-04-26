@@ -6,7 +6,7 @@ Chrome extension to add code line item id clicking to the window location
 # To Install
 
 1. Download in github:
-    a. Code: Download Zip
-    b. unzip to desired location
+  * Code: Download Zip
+  * unzip to desired location
 2. Open chrome://extensions
-3. Load Unpacked => Phabclickz
+3. Load Unpacked => load in entire Phabclickz folder
