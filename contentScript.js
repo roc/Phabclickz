@@ -5,7 +5,9 @@ setTimeout(() => {
         for (let cell of cells) {
             if (cell.getAttribute('id')) {
                 cell.addEventListener('click', (e) => {
-                    window.location.hash = e.target.id;
+                    if (e.target.id) {
+                        window.location.hash = e.target.id;
+                    }
                 })
             }
         }
